@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="abasdd.css">
+</head>
+
+<body>
+
+    <style>
+
+body{
+
+    background-color: rgb(58, 56, 52);
+}
+
+
+
+    </style>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" placeholder="0">
+        </div>
+        <div class="buttons">
+            <button class="operator" onclick="clearResult()">C</button>
+            <button class="operator" onclick="backspace()">%</button>
+            <button class="operator" onclick="insert('/')">÷</button>
+            <button onclick="insert('7')">7</button>
+            <button onclick="insert('8')">8</button>
+            <button onclick="insert('9')">9</button>
+            <button class="operator" onclick="insert('*')">×</button>
+            <button onclick="insert('4')">4</button>
+            <button onclick="insert('5')">5</button>
+            <button onclick="insert('6')">6</button>
+            <button class="operator" onclick="insert('-')">-</button>
+            <button onclick="insert('1')">1</button>
+            <button onclick="insert('2')">2</button>
+            <button onclick="insert('3')">3</button>
+            <button class="operator" onclick="insert('+')">+</button>
+            <button onclick="insert('0')">0</button>
+            <button onclick="insert('.')">.</button>
+            <button class="operator" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="adddd.js"></script>
+</body>
+
+</html>
